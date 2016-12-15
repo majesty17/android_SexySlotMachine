@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="item">false</item>
+    <item type="id" name="slot_1">false</item>
+    <item type="id" name="slot_2">false</item>
+    <item type="id" name="slot_3">false</item>
+    <item type="id" name="slot_4">false</item>
+
+
+
+</resources>

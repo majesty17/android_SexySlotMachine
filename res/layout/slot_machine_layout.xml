@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/layout_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="44dp" >
+
+        <kankan.wheel.widget.WheelView
+            android:id="@+id/slot_1"
+            android:layout_width="200sp"
+            android:layout_height="170sp"
+            android:layout_toLeftOf="@+id/slot_4" />
+
+        <kankan.wheel.widget.WheelView
+            android:id="@+id/slot_3"
+            android:layout_width="60sp"
+            android:layout_height="170sp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true" />
+
+        <kankan.wheel.widget.WheelView
+            android:id="@+id/slot_2"
+            android:layout_width="40sp"
+            android:layout_height="170sp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="70dp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/pwd_status"
+        android:layout_width="170sp"
+        android:layout_height="50sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:text=""
+        android:textColor="#F00"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_mix"
+        android:layout_width="170sp"
+        android:layout_height="50sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:text="@string/BTN_Start_Roll"
+        android:textSize="18sp" />
+
+</LinearLayout>
